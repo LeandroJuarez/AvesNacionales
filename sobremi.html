@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> Sobre mí </title>
+    <link rel="stylesheet" href="CSS/nav.css">
+
+</head>
+
+<body>
+
+<section class="header">
+     <nav>
+        <a href="Inicio.html"> <img src=""> </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"> </i>
+            <ul>
+                 <li> <a href="Inicio.html"> REGRESAR </a> </li>
+                 <li> <a href="sobremi.html"> SOBRE MÍ </a> </li>
+                 <li> <a href="LEGAL/politica.html"> POLÍTICA Y PRIVACIDAD </a> </li>
+
+             </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"> </i>
+
+    </nav>
+
+    <div class="text-box">
+
+        <h1> Sobre mí</h1>
+        <p> Hola, buenos días, mi nombre es Leandro Juarez, tengo 17 años y éste es mi proyecto de Diseño web estática - dinámica </p>
+        <a class="a-button" href="#Abajo"> Ir hacía abajo </a>
+
+    </div>
+</section>
+
+<section class="facilities">
+
+    <h1 id="Abajo"> Prueba </h1>
+    <p> Leandro Juarez </p> 
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Imágenes/escuelatecnica.jpg">
+            <h3> Escuela técnica N°1 </h3>
+            <p> Por primera vez, estoy realmente empeñado a dar todo de mí para éste sitio web. </p>
+        </div>
+        <div class="facilities-col">
+            <img src="Imágenes/pichoncalandria.jfif">
+            <h3> Inspiración </h3>
+            <p> Mi inspiración de realizar este tema en el sitio web es gracias que cuíde a un pichon de calandria, lo cuídamos durante 1 - 2 meses, el último día lo lancé hacía arriba y voló solo. </p>
+        </div>
+        <div class="facilities-col">
+            <img src="Imágenes/calandria.jpg">
+            <h3> Gracias </h3>
+            <p> Muchas gracias por haber visitado mi sitio web, espero y le haya gustado :D . </p>
+        </div>
+    </div>
+    
+
+</section>
+
+    <script>
+
+     var navLinks = document.getElementById("navLinks");
+
+     function MostrarMenú() {
+
+        navLinks.style.right = "0";
+
+     }
+
+     function CerrarMenu() {
+
+        navLinks.style.right = "-200px";
+
+     }
+
+    </script>
+</body>
+</html>
